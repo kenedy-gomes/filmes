@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+:root {
+    --bg-gray: #DDD;
+    --color-primary: #4D41C0;
+    --bg-white: #FFFFFF;
+    --bg-text-gray:#4A4A4A;
+    }
+
+
+ *{
+     box-sizing: border-box;
+     font-family: 'Open Sans,', sans-serif;
+ }
+
+
+ html, body {
+     background-color: var(--bg-gray);
+ }
+
+ header {
+     background-color: var(--color-primary);
+     color: var(--bg-white);
+     height: 60px;
+     display: flex;
+     align-items: center;
+ }
+
+ nav h1, nav h2, nav h3, nav h4, nav h5 {
+    margin-bottom: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav h1{
+    font-size: 24px;
+    font-weight: 700;
+        
+}
+
+nav a{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+ nav a, nav a:hover {
+     color: unset;
+     text-decoration: none;
+ }
+ 
+ .dsmovie-contact-container{
+     display: flex;
+     align-items: center;
+ }
+
+ .dsmovie-contact-container img{
+    margin-right: 10px;
+ }
+
+ #dsmovie-card-list{
+     padding: 40px 0;
+ }
+
+ .dsmovie-card{
+    width: 300px;
+    height: 400px;
+    background-color: var(--bg-gray);
+}
+
+ .dsmovie-card img{
+   width: 100%; 
+ }
+
+ .dsmovie-card h3{
+    color: #4A4A4A;
+    align-items: center;
+    font-size: 14px;
+ }
+
+ .dsmovie-card-description{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+
+
+ }
+
+ .dsmovie-card a{
+    text-decoration: none;
+ } 
+
+ 
